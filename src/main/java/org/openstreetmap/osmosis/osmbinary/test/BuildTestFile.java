@@ -15,7 +15,7 @@
 
 */
 
-package crosby.binary.test;
+package org.openstreetmap.osmosis.osmbinary.test;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -25,21 +25,21 @@ import java.util.Collections;
 
 import com.google.protobuf.ByteString;
 
-import crosby.binary.Fileformat.Blob;
-import crosby.binary.Fileformat.BlobHeader;
-import crosby.binary.Osmformat.DenseNodes;
-import crosby.binary.Osmformat.HeaderBlock;
-import crosby.binary.Osmformat.Info;
-import crosby.binary.Osmformat.Node;
-import crosby.binary.Osmformat.PrimitiveBlock;
-import crosby.binary.Osmformat.PrimitiveBlock.Builder;
-import crosby.binary.Osmformat.PrimitiveGroup;
-import crosby.binary.Osmformat.Relation;
-import crosby.binary.Osmformat.Relation.MemberType;
-import crosby.binary.Osmformat.StringTable;
-import crosby.binary.Osmformat.Way;
-import crosby.binary.file.BlockOutputStream;
-import crosby.binary.file.FileBlock;
+import org.openstreetmap.osmosis.osmbinary.Fileformat.Blob;
+import org.openstreetmap.osmosis.osmbinary.Fileformat.BlobHeader;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.DenseNodes;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.HeaderBlock;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.Info;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.Node;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.PrimitiveBlock;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.PrimitiveBlock.Builder;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.PrimitiveGroup;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.Relation;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.Relation.MemberType;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.StringTable;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.Way;
+import org.openstreetmap.osmosis.osmbinary.file.BlockOutputStream;
+import org.openstreetmap.osmosis.osmbinary.file.FileBlock;
 
 public class BuildTestFile {
   BlockOutputStream output;

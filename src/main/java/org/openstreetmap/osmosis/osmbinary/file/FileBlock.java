@@ -15,7 +15,7 @@
 
 */
 
-package crosby.binary.file;
+package org.openstreetmap.osmosis.osmbinary.file;
 
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
@@ -27,8 +27,8 @@ import java.util.zip.Deflater;
 
 import com.google.protobuf.ByteString;
 
-import crosby.binary.Fileformat;
-import crosby.binary.Fileformat.BlobHeader;
+import org.openstreetmap.osmosis.osmbinary.Fileformat;
+import org.openstreetmap.osmosis.osmbinary.Fileformat.BlobHeader;
 
 /** A full fileblock object contains both the metadata and data of a fileblock */
 public class FileBlock extends FileBlockBase {
@@ -60,7 +60,7 @@ public class FileBlock extends FileBlockBase {
       return new FileBlock(type, blob, indexdata);
     }
 
-     protected void deflateInto(crosby.binary.Fileformat.Blob.Builder blobbuilder) {
+     protected void deflateInto(org.openstreetmap.osmosis.osmbinary.Fileformat.Blob.Builder blobbuilder) {
         int size = data.size();
         Deflater deflater = new Deflater();
         deflater.setInput(data.toByteArray());

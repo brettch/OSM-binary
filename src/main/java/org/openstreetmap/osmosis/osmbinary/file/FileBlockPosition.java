@@ -15,7 +15,7 @@
 
 */
 
-package crosby.binary.file;
+package org.openstreetmap.osmosis.osmbinary.file;
 
 import java.io.DataInputStream;
 import java.io.FileInputStream;
@@ -27,7 +27,7 @@ import java.util.zip.Inflater;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
 
-import crosby.binary.Fileformat;
+import org.openstreetmap.osmosis.osmbinary.Fileformat;
 
 /**
  * Stores the position in the stream of a fileblock so that it can be easily

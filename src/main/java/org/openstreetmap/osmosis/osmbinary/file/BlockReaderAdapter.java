@@ -15,7 +15,7 @@
 
 */
 
-package crosby.binary.file;
+package org.openstreetmap.osmosis.osmbinary.file;
 
 /** An adaptor that receives blocks from an input stream */
 public interface BlockReaderAdapter {

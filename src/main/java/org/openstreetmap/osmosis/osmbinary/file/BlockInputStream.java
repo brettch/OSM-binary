@@ -15,7 +15,7 @@
 
 */
 
-package crosby.binary.file;
+package org.openstreetmap.osmosis.osmbinary.file;
 
 import java.io.EOFException;
 import java.io.IOException;

@@ -15,15 +15,15 @@
 
 */
 
-package crosby.binary;
+package org.openstreetmap.osmosis.osmbinary;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import crosby.binary.Osmformat.PrimitiveGroup;
-import crosby.binary.file.BlockOutputStream;
-import crosby.binary.file.FileBlock;
+import org.openstreetmap.osmosis.osmbinary.Osmformat.PrimitiveGroup;
+import org.openstreetmap.osmosis.osmbinary.file.BlockOutputStream;
+import org.openstreetmap.osmosis.osmbinary.file.FileBlock;
 
 /**
  * Generic serializer common code

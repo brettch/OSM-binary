@@ -15,7 +15,7 @@
 
 */
 
-package crosby.binary.file;
+package org.openstreetmap.osmosis.osmbinary.file;
 
 import java.io.DataInputStream;
 import java.io.FileInputStream;
@@ -23,7 +23,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import com.google.protobuf.ByteString;
 
-import crosby.binary.Fileformat;
+import org.openstreetmap.osmosis.osmbinary.Fileformat;
 
 /**
  * Intermediate representation of the header of a fileblock when a set of

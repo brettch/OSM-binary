@@ -15,7 +15,7 @@
 
 */
 
-package crosby.binary;
+package org.openstreetmap.osmosis.osmbinary;
 
 import java.util.Arrays;
 import java.util.Comparator;

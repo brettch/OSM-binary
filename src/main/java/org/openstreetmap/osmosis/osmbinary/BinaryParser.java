@@ -15,7 +15,7 @@
 
 */
 
-package crosby.binary;
+package org.openstreetmap.osmosis.osmbinary;
 
 
 import java.util.Date;
@@ -23,10 +23,10 @@ import java.util.List;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 
-import crosby.binary.Osmformat;
-import crosby.binary.file.BlockReaderAdapter;
-import crosby.binary.file.FileBlock;
-import crosby.binary.file.FileBlockPosition;
+import org.openstreetmap.osmosis.osmbinary.Osmformat;
+import org.openstreetmap.osmosis.osmbinary.file.BlockReaderAdapter;
+import org.openstreetmap.osmosis.osmbinary.file.FileBlock;
+import org.openstreetmap.osmosis.osmbinary.file.FileBlockPosition;
 
 public abstract class BinaryParser implements BlockReaderAdapter {
     protected int granularity;
