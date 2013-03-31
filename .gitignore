@@ -1,5 +1,6 @@
-include/osmpbf/*.pb.h
-src/*.pb.h
-src/*.pb.o
-src/libosmpbf.a
-*.swp
+.classpath
+.project
+.settings
+/bin
+/build
+
